@@ -12,7 +12,9 @@ export default defineNuxtConfig({
   alias: {
     '@': resolve(__dirname, './src'),
   },
+  srcDir: './src',
   imports: {
     autoImport: false,
   },
+  appDir: './src',
 });
