@@ -17,4 +17,7 @@ export default defineNuxtConfig({
     autoImport: false,
   },
   appDir: './src',
+  typescript: {
+    strict: true,
+  },
 });
